@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-color: beige;
+    box-sizing: border-box;
+}
+.conteudo__botoes{
+    width: min-content;
+    height: min-content;
+
+}
+.conteudo{
+    width: min-content;
+    height: min-content;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.digite{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+.botao{
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.titulo{
+    font-size: 25px;
+    font-family: 'Krona One', sans-serif;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+    outline-offset: 2px;
+    text-align: center;
+    margin-top: 20px;
+}
+.botoes__operadores{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    height: 276.8px;
+    margin-top: 98.7px;
+}
+.botaoOp{
+    width: 40px;
+    height: 50px;
+    margin: 5.5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.botaoEx{
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: silver;
+    
+}
+.linha{
+    outline-style: solid;
+    outline-color: black;
+    position: absolute;
+    top: 560px;
+    left: 0%;
+    width: 100%;
+    outline-width: 2px;
+    outline-offset: 20px;
+    text-align: center;
+}

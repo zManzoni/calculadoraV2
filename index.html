@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testando.css">
+    <h1 class= "titulo">Calculadora Protótipo V2</h1>
+    <h1 class="linha"></h1>
+    
+</head>
+<body >
+    <section class="conteudo">        
+        <section class="conteudo__botoes">
+            <input disabled class="digite"id="campo" placeholder="0">
+            <section class="conteudo__botoes__1a3">
+                <button class="botao"onclick="botao(1)">1</button>
+                <button class="botao"onclick="botao(2)">2</button>
+                <button class="botao"onclick="botao(3)">3</button>
+            </section>
+            <section class="conteudo__botoes__4a6">
+                <button class="botao"onclick="botao(4)">4</button>
+                <button class="botao"onclick="botao(5)">5</button>
+                <button class="botao"onclick="botao(6)">6</button>
+            </section>
+            <section class="conteudo__botoes__7a9">
+                <button class="botao"onclick="botao(7)">7</button>
+                <button class="botao"onclick="botao(8)">8</button>
+                <button class="botao"onclick="botao(9)">9</button>
+            </section>
+            <section class="conteudo__botoes__0">
+                <button class="botaoEx"onclick="botaoOperador('=')">=</button>
+                <button class="botao"onclick="botao(0)">0</button>
+                <button class="botaoEx"onclick="botaoClear()">C</button>
+                
+            </section>
+        </section>
+        <section class="conteudo__botoesOP">
+                <section class="botoes__operadores">
+                    <button class="botaoOp"onclick="botaoOperador('+')">+</button>
+                    <button class="botaoOp"onclick="botaoOperador('/')">/</button>
+                    <button class="botaoOp"onclick="botaoOperador('-')">-</button>
+                    <button class="botaoOp"onclick="botaoOperador('x')">x</button>
+                    
+                </section>
+        </section>
+    </section>
+    <script defer src="script.js"></script>
+</body>
+</html>
